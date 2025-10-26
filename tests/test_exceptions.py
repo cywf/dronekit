@@ -23,7 +23,7 @@ def test_connection_error():
     """Test ConnectionError exception."""
     with pytest.raises(ConnectionError):
         raise ConnectionError("Connection failed")
-    
+
     # Should also be a DroneKitException
     with pytest.raises(DroneKitException):
         raise ConnectionError("Connection failed")
@@ -51,7 +51,7 @@ def test_arming_error():
     """Test ArmingError exception."""
     with pytest.raises(ArmingError):
         raise ArmingError("Arming failed")
-    
+
     # Should also be a CommandError
     with pytest.raises(CommandError):
         raise ArmingError("Arming failed")

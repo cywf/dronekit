@@ -32,7 +32,7 @@ pip install -e ".[dev]"
 
 ## Requirements
 
-- Python 3.7 or higher
+- Python 3.8 or higher
 - pymavlink >= 2.4.37
 - pyserial >= 3.5
 - monotonic >= 1.6

@@ -17,9 +17,9 @@ Example:
     >>> vehicle.close()
 """
 
-__version__ = '0.1.0'
-__author__ = 'Ky1o P'
-__license__ = 'MIT'
+__version__ = "0.1.0"
+__author__ = "Ky1o P"
+__license__ = "MIT"
 
 from .vehicle import Vehicle, connect
 from .exceptions import (
@@ -31,12 +31,12 @@ from .exceptions import (
 )
 
 __all__ = [
-    'Vehicle',
-    'connect',
-    'DroneKitException',
-    'ConnectionError',
-    'TimeoutError',
-    'CommandError',
-    'VehicleNotConnectedError',
-    '__version__',
+    "Vehicle",
+    "connect",
+    "DroneKitException",
+    "ConnectionError",
+    "TimeoutError",
+    "CommandError",
+    "VehicleNotConnectedError",
+    "__version__",
 ]
